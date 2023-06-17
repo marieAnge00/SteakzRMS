@@ -1,0 +1,26 @@
+Admin Login
+Email - admin@gmail.com
+Pass - 1234
+
+User login 
+Email - om@gmail.com
+Pass - 1234
+
+
+----------------------------------------------
+**Developer Notes**
+
+Order Status
+0 - Pending / In Progress
+1 - Completed
+2 - Cancelled
+
+Payment Status
+0 - Pending
+1 - Paid
+
+=> For orders with online payment, the payment status will be 1. 
+=> For Cash On Delivery (COD), initially the payment status will be 0. Once the order is delivered and
+cash is received from the customer, you can update the order status to completed and the payment status
+will automatically be updated as 1 (paid).
+
